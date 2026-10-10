@@ -1,0 +1,8 @@
+ComfyUI-Index-Translate
+Copyright 2026 Xabsurd
+
+Translation prompts and language mappings are adapted from bilibili/Index-Translate:
+https://github.com/bilibili/Index-Translate
+Upstream code is distributed under the Apache License, Version 2.0.
+This project is an independent ComfyUI integration, not an official Bilibili product.
+Model weights are downloaded separately and remain subject to their own licenses.

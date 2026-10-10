@@ -1,0 +1,64 @@
+{
+  "IndexTranslateSimple": {
+    "display_name": "Index-Translate",
+    "inputs": {
+      "offload": {
+        "name": "Offload after translation"
+      },
+      "text": {
+        "name": "Text"
+      },
+      "target_language": {
+        "name": "Target language"
+      },
+      "model": {
+        "name": "Model"
+      }
+    },
+    "outputs": {
+      "translation": {
+        "name": "Translation"
+      }
+    }
+  },
+  "IndexTranslate": {
+    "display_name": "Index-Translate Pro",
+    "inputs": {
+      "offload": {
+        "name": "Offload after translation"
+      },
+      "text": {
+        "name": "Text"
+      },
+      "target_language": {
+        "name": "Target language"
+      },
+      "model": {
+        "name": "Model"
+      },
+      "source_language": {
+        "name": "Source language"
+      },
+      "glossary": {
+        "name": "Glossary"
+      },
+      "instruction": {
+        "name": "Instructions"
+      },
+      "genre": {
+        "name": "Genre / domain"
+      },
+      "max_new_tokens": {
+        "name": "Maximum output tokens"
+      },
+      "temperature": {
+        "name": "Temperature"
+      }
+    },
+    "outputs": {
+      "translation": {
+        "name": "Translation"
+      }
+    }
+  }
+}

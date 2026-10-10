@@ -1,0 +1,64 @@
+{
+  "IndexTranslateSimple": {
+    "display_name": "Index-Translate（简单版）",
+    "inputs": {
+      "offload": {
+        "name": "翻译后卸载到内存"
+      },
+      "text": {
+        "name": "输入文字"
+      },
+      "target_language": {
+        "name": "目标语言"
+      },
+      "model": {
+        "name": "模型"
+      }
+    },
+    "outputs": {
+      "translation": {
+        "name": "译文"
+      }
+    }
+  },
+  "IndexTranslate": {
+    "display_name": "Index-Translate（专业版）",
+    "inputs": {
+      "offload": {
+        "name": "翻译后卸载到内存"
+      },
+      "text": {
+        "name": "输入文字"
+      },
+      "target_language": {
+        "name": "目标语言"
+      },
+      "model": {
+        "name": "模型"
+      },
+      "source_language": {
+        "name": "源语言"
+      },
+      "glossary": {
+        "name": "术语表"
+      },
+      "instruction": {
+        "name": "附加指令"
+      },
+      "genre": {
+        "name": "文体 / 领域"
+      },
+      "max_new_tokens": {
+        "name": "最大输出 token"
+      },
+      "temperature": {
+        "name": "温度"
+      }
+    },
+    "outputs": {
+      "translation": {
+        "name": "译文"
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "IndexTranslateSimple": {
+    "display_name": "Index-Translate（シンプル）",
+    "inputs": {
+      "offload": {
+        "name": "翻訳後にCPUへ移動"
+      },
+      "text": {
+        "name": "入力テキスト"
+      },
+      "target_language": {
+        "name": "翻訳先の言語"
+      },
+      "model": {
+        "name": "モデル"
+      }
+    },
+    "outputs": {
+      "translation": {
+        "name": "翻訳文"
+      }
+    }
+  },
+  "IndexTranslate": {
+    "display_name": "Index-Translate（詳細）",
+    "inputs": {
+      "offload": {
+        "name": "翻訳後にCPUへ移動"
+      },
+      "text": {
+        "name": "入力テキスト"
+      },
+      "target_language": {
+        "name": "翻訳先の言語"
+      },
+      "model": {
+        "name": "モデル"
+      },
+      "source_language": {
+        "name": "原文の言語"
+      },
+      "glossary": {
+        "name": "用語集"
+      },
+      "instruction": {
+        "name": "追加指示"
+      },
+      "genre": {
+        "name": "文体 / 分野"
+      },
+      "max_new_tokens": {
+        "name": "最大出力トークン数"
+      },
+      "temperature": {
+        "name": "温度"
+      }
+    },
+    "outputs": {
+      "translation": {
+        "name": "翻訳文"
+      }
+    }
+  }
+}
